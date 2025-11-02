@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link
+        href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Front Page -->
+
+    <section class="front-page box hide" id="front-page">
+        <h1>Quiz Time!</h1>
+        <p>Test your knowledge with these fun questions.</p>
+        <button class="btn" id="start-btn">Start Quiz</button>
+
+    </section>
+
+    <!-- Quastion Page -->
+
+    <section class="question-page box" id="question-page">
+        <h2 id="question"></h2>
+        <div class="info">
+            <p id="question-out-of">QOOF</p>
+            <p id="score"">Score: hah</p>
+        </div>
+        <ul id="btn-ul" class="btns">
+            <!-- <button class="answer-btn">helsfbks</button> -->
+        </ul>
+        <div class="meter-container"><div id="completion-meter"></div></div>
+        
+    </section>
+
+    <!-- Result Page -->
+
+    <section class="result-page box hide" id="result-page">
+        <h1>Quiz Results</h1>
+        <div class="result">
+            <h2 id="final-text">Congratulations!</h2>
+            <h3 id="final-score"></h3>
+        </div>
+        <button class="btn" id="restart-btn">Restart Quiz</button>
+    </section>
+
+
+</body>
+
+</html>
