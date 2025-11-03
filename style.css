@@ -148,3 +148,9 @@ body {
 .hide {
     display: none;
 }
+
+@media (max-width: 468px;){
+    .question-page, .result-page{
+        width: 350px;
+    }
+}
