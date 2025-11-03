@@ -71,7 +71,7 @@ body {
 /* Question Section */
 
 .question-page {
-    width: 500px;
+    width: 350px;
     color: var(--text-color);
     padding: 2em 2em;
     gap: 1em;
@@ -130,7 +130,7 @@ body {
 
 .result-page{
     color: var(--text-color);
-    width: 500px;
+    width: 350px;
     display: flex;
     flex-direction: column;
     padding: 1.5em 2em;
