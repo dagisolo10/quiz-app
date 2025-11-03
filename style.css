@@ -44,6 +44,7 @@ body {
 /* Front Section */
 
 .front-page {
+    width: 350px;
     color: var(--text-color);
     padding: 2em 2em;
     gap: 1em;
